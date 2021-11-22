@@ -8,7 +8,7 @@ const questions = [
 
     {
         type: "checkbox",
-        name: "License",
+        name: "license",
         message: "Choose a licenese for the project:",
         choices: ["MIT", "Apache", "GNU", "None"],
         validate: LicInput => {
@@ -24,7 +24,7 @@ const questions = [
 
     {
         type: "input",
-        name: "Title",
+        name: "title",
         message: "whats the title of the project?:",
         validate: TitleInput => {
             if (TitleInput) {
@@ -39,7 +39,7 @@ const questions = [
 
     {
         type: "input",
-        name: "Description",
+        name: "description",
         message: "Give a description for the project:",
         validate: DescriptionInput => {
             if (DescriptionInput) {
@@ -54,7 +54,7 @@ const questions = [
 
     {
         type: "input",
-        name: "Installation",
+        name: "installation",
         message: "How should you install your application?:",
         validate: InstallInput => {
             if (InstallInput) {
@@ -69,7 +69,7 @@ const questions = [
 
     {
         type: "input",
-        name: "Usage",
+        name: "usage",
         message: "How do you use this application?:",
         validate: UsageInput => {
             if (UsageInput) {
@@ -83,7 +83,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "Contribution",
+        name: "contribution",
         message: "Contributions for the project?:",
         validate: ContInput => {
             if (ContInput) {
@@ -98,7 +98,7 @@ const questions = [
 
     {
         type: "input",
-        name: "Test",
+        name: "test",
         message: "how do you test this application?:",
         validate: TestInput => {
             if (TestInput) {
@@ -113,18 +113,26 @@ const questions = [
 
     {
         type: "input",
-        name: "Questions",
-        message: "Any common questions?:",
-        validate: QuestionInput => {
-            if (QuestionInput) {
+        name: "github",
+        message: "Enter github username:",
+        validate: GithubInput => {
+            if (GithubInput) {
                 return true;
             }
             else {
-                console.log("please enter a title");
+                console.log("please enter your github username");
                 return false;
             }
         }
     },
+
+    {
+        type: "input",
+        name:"email",
+        message:"If you would like to display your email put it here:"
+    },
+    
+
 
 ];
 
