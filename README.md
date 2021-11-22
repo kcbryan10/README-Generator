@@ -1,7 +1,7 @@
-# asdasd
+# README File Generator
   
   ## Licensing:
-  [![License](https://img.shields.io/badge/license-MIT,Apache,GNU-blue)](https://shields.io)
+  [![License](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
 
   ## Table of Contents
   - [Description](#description)
@@ -11,22 +11,22 @@
   - [Testing](#testing)
 
   ## Descritpion:
-  ok
+  The basic purpose of this application to provide and professional README based on user input.
 
   ## Installation:
-  asdasd
+  Download the file from github
 
   ## Usage:
-  asd
+  navigate to the file destination in command prompt and run the command "node index.js"
 
   ## License:
-  MIT,Apache,GNU
+  MIT
 
   ## Testing:
-  sdas
+  use node index.js
 
   ## Contribution:
-  asda
+  none
 
   ## Creators Information:
   - github: [kcbryan](https://github.com/kcbryan)
