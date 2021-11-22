@@ -1,28 +1,33 @@
-# undefined
+# asdasd
   
   ## Licensing:
-  [![License](https://img.shields.io/badge/license-undefined-blue)](https://shields.io)
+  [![License](https://img.shields.io/badge/license-MIT,Apache,GNU-blue)](https://shields.io)
 
   ## Table of Contents
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[Contibution](#contribution)
-  -[Testing](#testing)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contibution](#contribution)
+  - [Testing](#testing)
 
   ## Descritpion:
-  undefined
+  ok
 
   ## Installation:
-  undefined
+  asdasd
 
   ## Usage:
-  undefined
+  asd
 
   ## License:
-  undefined
+  MIT,Apache,GNU
+
+  ## Testing:
+  sdas
 
   ## Contribution:
-  undefined
+  asda
 
-
+  ## Creators Information:
+  - github: [kcbryan](https://github.com/kcbryan)
+  - Email: kcbryan10@gmail.com
